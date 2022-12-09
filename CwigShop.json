@@ -146,6 +146,24 @@
   {
     "inputs": [
       {
+        "internalType": "uint256",
+        "name": "_ratio",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_threshold",
+        "type": "uint256"
+      }
+    ],
+    "name": "SetRatioAndThreshold",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
         "internalType": "address[]",
         "name": "addrs",
         "type": "address[]"
@@ -388,6 +406,34 @@
     "type": "function"
   },
   {
+    "inputs": [],
+    "name": "getTokenStatistic",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
     "inputs": [
       {
         "internalType": "contract IERC20",
@@ -508,25 +554,12 @@
   {
     "inputs": [
       {
-        "internalType": "uint256",
-        "name": "_threshold",
-        "type": "uint256"
+        "internalType": "address",
+        "name": "_manager",
+        "type": "address"
       }
     ],
-    "name": "setConvertThreshold",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "_ratio",
-        "type": "uint256"
-      }
-    ],
-    "name": "setRatio",
+    "name": "setManager",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
