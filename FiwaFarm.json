@@ -236,6 +236,21 @@
             "internalType": "uint256",
             "name": "lpSupply",
             "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "userCount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "rewardDistributed",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "startBlock",
+            "type": "uint256"
           }
         ],
         "internalType": "struct FiwaFarm.PoolInfo[]",
@@ -419,6 +434,21 @@
       {
         "internalType": "uint256",
         "name": "lpSupply",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "userCount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "rewardDistributed",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "startBlock",
         "type": "uint256"
       }
     ],
