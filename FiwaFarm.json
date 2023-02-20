@@ -246,6 +246,11 @@
             "internalType": "uint256",
             "name": "startBlock",
             "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "endAt",
+            "type": "uint256"
           }
         ],
         "internalType": "struct FiwaFarm.PoolInfo[]",
@@ -445,6 +450,11 @@
         "internalType": "uint256",
         "name": "startBlock",
         "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "endAt",
+        "type": "uint256"
       }
     ],
     "stateMutability": "view",
@@ -523,6 +533,19 @@
       }
     ],
     "name": "setMinStakeTime",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_treasury",
+        "type": "address"
+      }
+    ],
+    "name": "setTreasure",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
